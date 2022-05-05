@@ -10,4 +10,10 @@ object Constant {
     const val ON_BOARDING_PAGE_COUNT = 3
 
     const val HERO_REMOTE_KEY_DATABASE_TABLE = "hero_remote_key_table"
+
+    const val LAST_ON_BOARD_PAGE = 2
+
+    const val PREFERENCES_NAME = "boruto_preferences"
+
+    const val PREFERENCES_KEY = "on_boarding_completed"
 }
