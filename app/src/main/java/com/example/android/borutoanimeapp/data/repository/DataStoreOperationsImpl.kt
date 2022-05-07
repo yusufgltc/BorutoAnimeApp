@@ -1,4 +1,4 @@
-package com.example.android.borutoanimeapp.data.pref
+package com.example.android.borutoanimeapp.data.repository
 
 import android.content.Context
 import androidx.datastore.core.DataStore
