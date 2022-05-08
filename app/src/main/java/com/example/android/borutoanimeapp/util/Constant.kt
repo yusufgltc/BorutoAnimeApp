@@ -1,6 +1,9 @@
 package com.example.android.borutoanimeapp.util
 
 object Constant {
+
+    const val BASE_URL = "http://127.0.0.1:8080"
+
     const val DETAILS_ARG_KEY = "heroId"
 
     const val HERO_DATABASE_TABLE = "hero_table"
