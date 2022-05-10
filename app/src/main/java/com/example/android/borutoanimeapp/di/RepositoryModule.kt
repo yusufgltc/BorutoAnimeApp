@@ -5,6 +5,7 @@ import com.example.android.borutoanimeapp.data.repository.DataStoreOperationsImp
 import com.example.android.borutoanimeapp.data.repository.Repository
 import com.example.android.borutoanimeapp.domain.repository.DataStoreOperations
 import com.example.android.borutoanimeapp.domain.use_cases.UseCases
+import com.example.android.borutoanimeapp.domain.use_cases.get_all_heroes.GetAllHeroesUseCase
 import com.example.android.borutoanimeapp.domain.use_cases.read_onboarding.ReadOnBoardingUseCase
 import com.example.android.borutoanimeapp.domain.use_cases.save_onboarding.SaveOnBoardingUseCase
 import dagger.Module
@@ -29,7 +30,8 @@ object RepositoryModule {
     fun provideUseCases(repository: Repository): UseCases {
         return UseCases(
             saveOnBoardingUseCase = SaveOnBoardingUseCase(repository),
-            readOnBoardingUseCase = ReadOnBoardingUseCase(repository)
+            readOnBoardingUseCase = ReadOnBoardingUseCase(repository),
+            getAllHeroesUseCase = GetAllHeroesUseCase(repository)
         )
     }
 }
