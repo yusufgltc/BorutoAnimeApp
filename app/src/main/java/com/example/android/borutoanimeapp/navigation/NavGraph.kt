@@ -12,6 +12,7 @@ import com.example.android.borutoanimeapp.presentation.screens.splash.SplashScre
 import com.example.android.borutoanimeapp.presentation.screens.welcome.WelcomeScreen
 import com.example.android.borutoanimeapp.util.Constant.DETAILS_ARG_KEY
 import com.google.accompanist.pager.ExperimentalPagerApi
+
 @ExperimentalAnimationApi
 @ExperimentalPagerApi
 @Composable
